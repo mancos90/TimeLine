@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FD621F</color>
+    <color name="colorPrimaryDark">#FD621F</color>
+    <color name="colorAccent">#A57C00</color>
+    <color name="colorWhiteBg">#FEFCE3</color>
+    <!--时间轴-->
+    <color name="colorTimeLine1">#F8943D</color>
+</resources>

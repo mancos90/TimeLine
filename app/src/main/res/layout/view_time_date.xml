@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_line"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/ic_rect_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4/8"
+            android:textColor="#fff"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周六"
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <View
+
+        android:id="@+id/line2"
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rect"
+        android:layout_marginLeft="26dp"
+        android:background="@color/colorTimeLine1"
+        android:minHeight="20dp"/>
+</RelativeLayout>

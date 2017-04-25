@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeLineView">
+        <!--左右偏移值-->
+        <attr name="line_offset_left" format="dimension"/>
+        <attr name="line_offset_right" format="dimension"/>
+
+        <!--线宽-->
+        <attr name="line_stroke_width" format="dimension"/>
+
+        <!--线跟点的距离-->
+        <attr name="line_margin_point" format="dimension"/>
+
+        <!--线的颜色-->
+        <attr name="line_color" format="color"/>
+
+        <!--点的大小-->
+        <attr name="point_size" format="dimension"/>
+        <!--点的颜色-->
+        <attr name="point_color" format="dimension"/>
+
+        <!--用图片当做点-->
+        <attr name="point_icon" format="reference"/>
+
+    </declare-styleable>
+</resources>
